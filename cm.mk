@@ -19,7 +19,7 @@ $(call inherit-product, device/xiaomi/ferrari/full_ferrari.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Must define platform variant before including any common things
-TARGET_BOARD_PLATFORM_VARIANT := msm8939
+TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := ferrari
